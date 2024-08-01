@@ -28,3 +28,8 @@ public:
         return count;
     }
 };
+/*PTR
+count can also be calculated as: int cnt= (int)(log10(n)+1);
+if the number of iterations is based on dividing the number by 10 , tc will be logarithmic, O(log n).
+division by zero is undefined and would cause a runtime error or exception. .
+*/

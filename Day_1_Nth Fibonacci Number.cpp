@@ -39,3 +39,9 @@ int main()
     cout << answer;
     return 0;
 }
+/*PTR
+for making vector 0 based indexing
+vector<int>v(n+1);
+v[1]=1;
+v[2]=1;
+*/
